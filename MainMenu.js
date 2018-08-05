@@ -62,7 +62,7 @@ GameCtrl.MainMenu.prototype = {
             // TODO remover esto!
             //    this.startGame();
 
-                if(!this.KeyUpPressed && this.game.input.keyboard.isDown(Phaser.Keyboard.KeyUp)){
+                if(!this.KeyUpPressed && this.game.input.keyboard.isDown(Phaser.Keyboard.UP)){
                     this.KeyUpPressed=true;
                     
                     this.blinkedTimes=-1;
